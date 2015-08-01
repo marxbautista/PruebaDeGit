@@ -30,6 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.marioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.isaiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,9 +47,24 @@
             // 
             // archivoToolStripMenuItem
             // 
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.marioToolStripMenuItem,
+            this.isaiasToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
+            // marioToolStripMenuItem
+            // 
+            this.marioToolStripMenuItem.Name = "marioToolStripMenuItem";
+            this.marioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.marioToolStripMenuItem.Text = "Mario";
+            // 
+            // isaiasToolStripMenuItem
+            // 
+            this.isaiasToolStripMenuItem.Name = "isaiasToolStripMenuItem";
+            this.isaiasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.isaiasToolStripMenuItem.Text = "Isaias";
             // 
             // FormularioPrincipal
             // 
@@ -70,6 +87,8 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem marioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem isaiasToolStripMenuItem;
     }
 }
 
