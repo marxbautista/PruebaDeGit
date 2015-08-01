@@ -16,5 +16,10 @@ namespace PruebaDeGit
         {
             InitializeComponent();
         }
+
+        private void marioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Mundo Git");
+        }
     }
 }

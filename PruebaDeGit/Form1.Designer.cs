@@ -59,6 +59,7 @@
             this.marioToolStripMenuItem.Name = "marioToolStripMenuItem";
             this.marioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.marioToolStripMenuItem.Text = "Mario";
+            this.marioToolStripMenuItem.Click += new System.EventHandler(this.marioToolStripMenuItem_Click);
             // 
             // isaiasToolStripMenuItem
             // 
