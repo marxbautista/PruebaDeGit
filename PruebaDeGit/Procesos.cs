@@ -21,7 +21,7 @@ namespace PruebaDeGit
             StringBuilder cadena = new StringBuilder();
             for (int i = inicio; i < fin; i+=2)
             {
-                cadena.Append(i + " ");
+                cadena.Append(i + "-");
             }
             return cadena.ToString();
         }

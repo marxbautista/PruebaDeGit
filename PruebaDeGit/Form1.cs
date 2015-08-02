@@ -33,7 +33,7 @@ Procesos objeto = new Procesos();
 
             frmPares pares = new frmPares();
             pares.MdiParent = this;
-            pares.Texto = objeto.pares(2, 10);
+            pares.Texto = objeto.pares(2, 100);
             pares.Show();
         }
     }

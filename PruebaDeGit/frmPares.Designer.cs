@@ -60,7 +60,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.axAcroPDF1);
             this.Name = "frmPares";
-            this.Text = "frmPares";
+            this.Text = "prueba de pares";
             this.Load += new System.EventHandler(this.frmPares_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
             this.ResumeLayout(false);
