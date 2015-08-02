@@ -21,5 +21,20 @@ namespace PruebaDeGit
         {
             MessageBox.Show("Hola Mundo Git");
         }
+
+        private void isaiasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void imprimeParesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+Procesos objeto = new Procesos();
+
+            frmPares pares = new frmPares();
+            pares.MdiParent = this;
+            pares.Texto = objeto.pares(2, 10);
+            pares.Show();
+        }
     }
 }

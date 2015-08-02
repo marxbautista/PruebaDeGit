@@ -32,6 +32,7 @@
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.marioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.isaiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.imprimeParesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,9 +64,19 @@
             // 
             // isaiasToolStripMenuItem
             // 
+            this.isaiasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.imprimeParesToolStripMenuItem});
             this.isaiasToolStripMenuItem.Name = "isaiasToolStripMenuItem";
             this.isaiasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.isaiasToolStripMenuItem.Text = "Isaias";
+            this.isaiasToolStripMenuItem.Click += new System.EventHandler(this.isaiasToolStripMenuItem_Click);
+            // 
+            // imprimeParesToolStripMenuItem
+            // 
+            this.imprimeParesToolStripMenuItem.Name = "imprimeParesToolStripMenuItem";
+            this.imprimeParesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.imprimeParesToolStripMenuItem.Text = "Imprime pares";
+            this.imprimeParesToolStripMenuItem.Click += new System.EventHandler(this.imprimeParesToolStripMenuItem_Click);
             // 
             // FormularioPrincipal
             // 
@@ -90,6 +101,7 @@
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem marioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem isaiasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem imprimeParesToolStripMenuItem;
     }
 }
 
