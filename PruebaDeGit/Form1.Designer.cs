@@ -33,13 +33,17 @@
             this.marioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.isaiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imprimeParesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem});
+            this.archivoToolStripMenuItem,
+            this.abrirPDFToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(646, 24);
@@ -50,7 +54,8 @@
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.marioToolStripMenuItem,
-            this.isaiasToolStripMenuItem});
+            this.isaiasToolStripMenuItem,
+            this.abrirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -74,9 +79,30 @@
             // imprimeParesToolStripMenuItem
             // 
             this.imprimeParesToolStripMenuItem.Name = "imprimeParesToolStripMenuItem";
-            this.imprimeParesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.imprimeParesToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.imprimeParesToolStripMenuItem.Text = "Imprime pares";
             this.imprimeParesToolStripMenuItem.Click += new System.EventHandler(this.imprimeParesToolStripMenuItem_Click);
+            // 
+            // abrirPDFToolStripMenuItem
+            // 
+            this.abrirPDFToolStripMenuItem.Name = "abrirPDFToolStripMenuItem";
+            this.abrirPDFToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.abrirPDFToolStripMenuItem.Text = "Abrir PDF";
+            // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pDFToolStripMenuItem});
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.abrirToolStripMenuItem.Text = "Abrir";
+            // 
+            // pDFToolStripMenuItem
+            // 
+            this.pDFToolStripMenuItem.Name = "pDFToolStripMenuItem";
+            this.pDFToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pDFToolStripMenuItem.Text = "PDF";
+            this.pDFToolStripMenuItem.Click += new System.EventHandler(this.pDFToolStripMenuItem_Click);
             // 
             // FormularioPrincipal
             // 
@@ -102,6 +128,9 @@
         private System.Windows.Forms.ToolStripMenuItem marioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem isaiasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem imprimeParesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pDFToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirPDFToolStripMenuItem;
     }
 }
 

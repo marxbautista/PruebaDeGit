@@ -36,5 +36,12 @@ Procesos objeto = new Procesos();
             pares.Texto = objeto.pares(2, 100);
             pares.Show();
         }
+
+        private void pDFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPDF pdf = new frmPDF();
+            pdf.MdiParent = this;
+            pdf.Show();
+        }
     }
 }
